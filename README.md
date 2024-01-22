@@ -29,7 +29,7 @@ a [`dm`](https://cran.r-project.org/package=dm) object. Basically, a
 
 A graphical representation of these tables and their relations and some
 usage examples are shown in the
-[documentation of the `oft` object](https://psmwb.pages.agsad.admin.ch/openfoodtox/reference/oft.html).
+[documentation of the `oft` object](https://jranke.github.io/openfoodtox/reference/oft.html).
 
 For further information on relational data models as implemented in the
 [`dm`](https://cran.r-project.org/package=dm) package, please refer to its
