@@ -4,7 +4,7 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 <!-- badges: end -->
 
-This R package provides convenient access to the data extracted from some of
+This R package provides convenient access to data extracted from some of
 the spreadsheet files made available as OpenFoodTox, the chemical hazards
 database of the European Food Safety Authority (EFSA). The original files have
 been published under the 
@@ -13,8 +13,6 @@ licence and can be accessed via
 the [EFSA website](https://www.efsa.europa.eu/en/data-report/chemical-hazards-database-openfoodtox)
 or directly at
 [Zenodo](https://zenodo.org/doi/10.5281/zenodo.780543).
-
-## Usage
 
 The core component of the package is the data object `oft`, which contains the
 data from four OpenFoodTox spreadsheets which are currently relevant for our
@@ -30,12 +28,15 @@ a [`dm`](https://cran.r-project.org/package=dm) object. Basically, a
 A graphical representation of these tables and their relations and some
 usage examples are shown in the
 [documentation of the `oft` object](https://jranke.github.io/openfoodtox/reference/oft.html).
+In addition, there is a 
+[package vignette on the `oft` object](https://jranke.github.io/openfoodtox/articles/oft.html),
+describing the contents of the individual tables.
 
 For further information on relational data models as implemented in the
 [`dm`](https://cran.r-project.org/package=dm) package, please refer to its
 [online documentation](https://dm.cynkra.com/).
 
-## Installation from github (does not work yet)
+## Installation from github
 
 ```
 remotes::install_github("jranke/openfoodtox")
