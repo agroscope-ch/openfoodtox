@@ -6,3 +6,4 @@
 OpenFoodTox*.tar.gz
 *.Rcheck
 inst/doc
+docs/
