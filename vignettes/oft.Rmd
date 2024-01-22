@@ -1,0 +1,142 @@
+---
+title: Description of the `oft` data object
+author: Johannes Ranke
+bibliography: refs.bib
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Description of the `oft` data object}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(OpenFoodTox)
+library(dm, warn.conflicts = FALSE)
+```
+
+The main content of the R package `OpenFoodTox` is a data object named
+`oft`, containing `r length(oft)` tables with a selection of the OpenFoodTox
+data published by the European Food Safety Authority [@carnesecchi_2023].
+
+Column names and relations of the data tables in the data object `oft` made
+available by the OpenFoodTox R package are shown in the graph below.
+
+
+```{r dm_draw_oft, fig.height = 8}
+dm_draw(oft, view_type = "all")
+```
+
+The data object is basically a list of tibbles (a tibble is an advanced
+type of a dataframe). As with any list object in R, you can access
+the list members (i.e. the tables containing the data) using the `$`
+operator.
+
+```{r oft_referenc_points}
+head(oft$reference_points)
+```
+
+Please refer to the [documentation of the `dm` package](https://dm.cynkra.com) 
+for a description of the advanced features available for this type of data object.
+
+In the following descriptions of the tables contained in the `oft` object, the
+`kable()` function of the `knitr` package is used to format the data tables.
+
+## Reference points
+
+The reference points themselves are numeric outcomes of toxicological or
+ecotoxicological studies, and were described as "The critical toxicological
+studies and reference points ..."  [@dorne_2021].
+
+```{r reference_points}
+head(oft$reference_points) |>
+  knitr::kable()
+```
+
+Apparently, this means that in a certain category of reference points, the
+most critical value is selected and only this is reported. Also, it seems
+that for pesticidal active substances, reference points for the
+representative formulations which are also available in EFSA outputs are not
+listed.
+
+The number of reference points by study type is shown below.
+
+```{r reference_points_studies}
+sort(table(oft$reference_points$Study), decreasing = TRUE)
+```
+
+Example code extracting and printing the reference points on
+the springtail species *Folsomia candida*:
+
+```{r springtail_endpoints}
+# Collect endpoints on springtails
+springtail_endpoints <- oft$reference_points |>
+  dplyr::filter(Species == "Folsomia candida") |>
+  select(Substance, DurationDays, Endpoint, qualifier, value, unit, Effect)
+head(springtail_endpoints) |>
+  knitr::kable()
+```
+
+## Reference values
+
+The reference values show the outcome of a substance specific assessment. The 
+number of reference values available for the most frequent assessment types are
+shown below. 
+
+```{r reference_points_assessments}
+sort(table(oft$reference_values$Assessment), decreasing = TRUE)[1:10]
+```
+
+Some examples of Predicted No-Effect Concentration (PNEC) data can
+easily be extracted.
+
+```{r reference_points_PNEC_values}
+PNEC_values <- oft$reference_values |>
+  dplyr::filter(Assessment == "PNEC")
+head(PNEC_values) |>
+  knitr::kable()
+```
+
+## Substance names
+
+This table only contains the substance names and serves as a reference table 
+for the reference points and the reference values.
+
+```{r substance_names}
+head(oft$substance_names) |>
+  knitr::kable()
+```
+
+## Substance characterisation
+
+In this table, substance characterisation data are collected^[Only the first
+four entries are shown, because the `@` character in the SMILES codes
+of the later entries confuses the documentation system. It is
+both misinterpreted to indicate an e-mail address, and to indicate a citation].
+
+```{r substance_characterisation}
+head(oft$substance_characterisation, n = 4) |>
+  knitr::kable()
+```
+
+The exact meaning of the differenct values in the column
+`component_type` (originally named `has`) does not seem to be documented.
+
+## EFSA output
+
+This table is referred to from the tables containing reference points and
+referenec values. It shows some bibliographic information on the documents
+that served as data sources for the OpenFoodTox project.
+
+```{r efsa_outputs}
+head(oft$efsa_outputs) |>
+  knitr::kable()
+```
+
+# References

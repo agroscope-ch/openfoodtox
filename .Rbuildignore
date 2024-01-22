@@ -1,0 +1,11 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.gitlab-ci.yml$
+^_pkgdown.yml$
+^README.html$
+^README.rmd$
+^docs
+^log
+^Makefile$
+^\.github$
+^codecov\.yml$

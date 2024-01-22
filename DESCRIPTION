@@ -1,0 +1,32 @@
+Package: OpenFoodTox
+Type: Package
+Title: The EFSA OpenFoodTox Data Made Accessible as an R Package
+Version: 0.1.2
+Date: 2024-01-17
+Authors@R: c(
+  person("Johannes", "Ranke", role = c("aut", "cre"),
+    email = "johannes.ranke@agroscope.admin.ch",
+    comment = c(ORCID = "0000-0003-4371-6538")),
+  person("Romualdus", "Kasteel", role = c("rev"),
+    email = "romualdus.kasteel@agroscope.admin.ch"),
+  person("Marcel", "Mathis", role = c("rev"),
+    email = "marcel.mathis@agroscope.admin.ch"),
+  person("European Food Safety Authority", role = "dtc"),
+  person("Agroscope", role = "cph"))
+Description: Data centric package providing convenient access to data extracted from
+  some of the spreadsheet files made available by the chemical hazards database
+  of the European Food Safety Authority (EFSA), accessible via
+  <https://www.efsa.europa.eu/en/data-report/chemical-hazards-database-openfoodtox>.
+Depends: R (>= 3.5.0)
+Imports: dm, dplyr
+Suggests: knitr, rmarkdown, here, DiagrammeR, DiagrammeRsvg, testthat (>= 3.0.0), readxl
+BugReports: https://github.com/jranke/openfoodtox/issues
+License: GPL
+LazyData: yes
+LazyDataCompression: xz
+RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
+Language: en-GB
+Config/testthat/edition: 3
+VignetteBuilder: knitr
