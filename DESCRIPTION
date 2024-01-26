@@ -1,6 +1,6 @@
 Package: OpenFoodTox
 Type: Package
-Title: The EFSA OpenFoodTox Data Made Accessible as an R Package
+Title: EFSA OpenFoodTox Data Made Accessible as an R Package
 Version: 0.1.2
 Date: 2024-01-17
 Authors@R: c(
@@ -13,7 +13,7 @@ Authors@R: c(
     email = "marcel.mathis@agroscope.admin.ch"),
   person("European Food Safety Authority", role = "dtc"),
   person("Agroscope", role = "cph"))
-Description: Data centric package providing convenient access to data extracted from
+Description: Provides convenient access to data extracted from
   some of the spreadsheet files made available by the chemical hazards database
   of the European Food Safety Authority (EFSA), accessible via
   <https://www.efsa.europa.eu/en/data-report/chemical-hazards-database-openfoodtox>.
