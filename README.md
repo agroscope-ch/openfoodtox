@@ -25,7 +25,7 @@ a [`dm`](https://cran.r-project.org/package=dm) object. Basically, a
 
 ## Documentation
 
-The online documentation is [https://jranke.github.io/openfoodtox](available on github).
+The online documentation is [available on github](https://jranke.github.io/openfoodtox/index.html).
 
 A graphical representation of these tables and their relations and some
 usage examples are shown in the
