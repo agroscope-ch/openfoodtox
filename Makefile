@@ -10,6 +10,7 @@ pkgfiles = \
 	inst/dataset_generation/* \
 	man/* \
 	NAMESPACE \
+	NEWS.md \
 	README.md \
 	R/*
 
