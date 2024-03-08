@@ -2,6 +2,7 @@
 
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![openfoodtox status badge](https://agroscope-ch.r-universe.dev/badges/openfoodtox)](https://agroscope-ch.r-universe.dev/ui/#package:openfoodtox)
 <!-- badges: end -->
 
 This R package provides convenient access to data extracted from some of
@@ -25,23 +26,23 @@ a [`dm`](https://cran.r-project.org/package=dm) object. Basically, a
 
 ## Documentation
 
-The online documentation is [available on github](https://jranke.github.io/openfoodtox/index.html).
+The online documentation is [available on github](https://agroscope-ch.github.io/openfoodtox/index.html).
 
 A graphical representation of these tables and their relations and some
 usage examples are shown in the
-[documentation of the `oft` object](https://jranke.github.io/openfoodtox/reference/oft.html).
+[documentation of the `oft` object](https://agroscope-ch.github.io/openfoodtox/reference/oft.html).
 In addition, there is a 
-[package vignette on the `oft` object](https://jranke.github.io/openfoodtox/articles/oft.html),
+[package vignette on the `oft` object](https://agroscope-ch.github.io/openfoodtox/articles/oft.html),
 describing the contents of the individual tables.
 
 For further information on relational data models as implemented in the
 [`dm`](https://cran.r-project.org/package=dm) package, please refer to its
 [online documentation](https://dm.cynkra.com/).
 
-## Installation from github
+## Installation
 
-```
-remotes::install_github("jranke/openfoodtox")
+```r
+install.packages("openfoodtox", repos = c("https://agroscope-ch.r-universe.dev", "https://cran.r-project.org"))
 ```
 
 You can then load the package in R

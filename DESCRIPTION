@@ -24,7 +24,7 @@ BugReports: https://github.com/jranke/openfoodtox/issues
 License: GPL
 LazyData: yes
 LazyDataCompression: xz
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1.9000
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
 Language: en-GB
