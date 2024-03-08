@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-[![openfoodtox status badge](https://agroscope-ch.r-universe.dev/badges/openfoodtox)](https://agroscope-ch.r-universe.dev/ui/#package:openfoodtox)
+[![openfoodtox status badge](https://agroscope-ch.r-universe.dev/badges/OpenFoodTox)](https://agroscope-ch.r-universe.dev/ui/#package:openfoodtox)
 <!-- badges: end -->
 
 This R package provides convenient access to data extracted from some of
