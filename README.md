@@ -42,10 +42,10 @@ For further information on relational data models as implemented in the
 ## Installation
 
 ```r
-install.packages("openfoodtox", repos = c("https://agroscope-ch.r-universe.dev", "https://cran.r-project.org"))
+install.packages("OpenFoodTox", repos = c("https://agroscope-ch.r-universe.dev", "https://cran.r-project.org"))
 ```
 
-You can then load the package in R
+You can then load the package in R using
 
 ```
 library(OpenFoodTox)
