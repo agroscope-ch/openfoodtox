@@ -1,7 +1,7 @@
 pandoc: 3.1.11
-pkgdown: 2.0.7
+pkgdown: 2.0.9
 pkgdown_sha: ~
 articles:
   oft: oft.html
-last_built: 2024-03-11T10:59Z
+last_built: 2024-04-25T13:02Z
 

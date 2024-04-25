@@ -25,12 +25,24 @@
     <loc>/reference/oft.html</loc>
   </url>
   <url>
-    <loc>/reference/oft_cyanobacteria.html</loc>
+    <loc>/reference/oft_aq_cyanobacteria.html</loc>
   </url>
   <url>
-    <loc>/reference/oft_diatom_algae.html</loc>
+    <loc>/reference/oft_aq_diatom_algae.html</loc>
   </url>
   <url>
-    <loc>/reference/oft_green_algae.html</loc>
+    <loc>/reference/oft_aq_fish.html</loc>
+  </url>
+  <url>
+    <loc>/reference/oft_aq_green_algae.html</loc>
+  </url>
+  <url>
+    <loc>/reference/oft_aq_invertebrates.html</loc>
+  </url>
+  <url>
+    <loc>/reference/oft_aq_macrophytes.html</loc>
+  </url>
+  <url>
+    <loc>/reference/oft_aq_primary_producers.html</loc>
   </url>
 </urlset>
