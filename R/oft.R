@@ -123,3 +123,96 @@ oft_cyanobacteria <- c(
   "Anabaena variabilis",
   "Aphanizomenon flos-aquae Ralfs ex Bornet &",
   "Microcystis aeruginosa")
+
+#' Aquatic primary producer species
+#'
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_aq_primary_producers)
+oft_aq_primary_producers <- c(
+  "Green alga",
+  "Scenedesmus subspicatus",
+  "Swollen duckweed",
+  "Pseudokirchneriella subcapitata",
+  "Navicula pelliculosa",
+  "Anabaena flosaquae",
+  "Common duckweed",
+  "Eurasian watermilfoil",
+  "Marine centric diatom",
+  "Aquatic plants group",
+  "Chlorella pyrenoidosa",
+  "Scenedesmus quadricauda",
+  "Scenedesmus pannonicus",
+  "Nitzschia palea",
+  "American waterweed (Pondweed) (live plants)",
+  "Common hornwort (live plants)",
+  "Green cabomba (live plants)",
+  "Wild celery (water celery) (live plants)",
+  "Chlorella vulgaris",
+  "Parrot feather",
+  "Anabaena variabilis",
+  "Aphanizomenon flos-aquae Ralfs ex Bornet &",
+  "Microcystis aeruginosa",
+  "Floating sweet-grass")
+
+
+#' Aquatic invertebrate species
+#'
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_aq_invertebrates)
+oft_aq_invertebrates <- c(
+  "Daphnia magna",
+  "Harlequin fly",
+  "Eastern oyster",
+  "Mysid shrimp",
+  "Daphnia pulex",
+  "Ctenodrilus serratus",
+  "Great pond snail",
+  "Dungeness crab",
+  "Gammaridae",
+  "Macrocyclops fuscus",
+  "Hyalella azteca",
+  "Ceriodaphnia dubia",
+  "Ceriodaphnia sp.",
+  "Palaemonetes kadlakensis",
+  "Chironomus tentans",
+  "Daggerblade grass Shrimp",
+  "Gammarus pseudolimnaeus",
+  "Gammarus pulex",
+  "Northern quahog",
+  "Chironomus yoshimatsui",
+  "Tiger worm",
+  "Gastropoda - Gastropods")
+
+#' Fish species
+#'
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_fish)
+oft_fish <- c(
+  "Rainbow trout",
+  "Bluegill",
+  "Fathead minnow",
+  "Sheepshead minnow",
+  "Common carp",
+  "Zebra fish",
+  "Red seabream",
+  "American flag fish",
+  "Brook trout",
+  "Brown trout",
+  "Ide",
+  "Louisiana crayfish",
+  "Atlantic salmon",
+  "Channel catfish",
+  "Guppy",
+  "European perch",
+  "Inland silverside",
+  "Mosquitofish",
+  "Three-spined stickleback",
+  "Mozambique tilapia",
+  "Spot croaker")
+
