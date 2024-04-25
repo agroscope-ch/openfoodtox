@@ -6,6 +6,6 @@
 ^README.rmd$
 ^docs
 ^log
-^Makefile$
+^GNUmakefile$
 ^\.github$
 ^codecov\.yml$

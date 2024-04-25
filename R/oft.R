@@ -41,7 +41,7 @@
 #'
 #' # Collect endpoints on green algae
 #' green_algae_endpoints <- oft$reference_points |>
-#'   dplyr::filter(Species %in% oft_green_algae) |>
+#'   dplyr::filter(Species %in% oft_aq_green_algae) |>
 #'   select(Substance, Species, DurationDays, Endpoint, qualifier, value, unit, Effect)
 #' print(green_algae_endpoints)
 #'
@@ -86,13 +86,14 @@
 #'   select(Substance, Species, DurationDays, Endpoint, qualifier, value, unit, Effect)
 "oft"
 
-#' Green algae species
+#' Aquatic green algae
 #'
+#' @family oft_aq
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_green_algae)
-oft_green_algae <- c(
+#' print(oft_aq_green_algae)
+oft_aq_green_algae <- c(
   "Chlorella pyrenoidosa",
   "Chlorella vulgaris",
   "Green alga",
@@ -102,63 +103,66 @@ oft_green_algae <- c(
   "Scenedesmus subspicatus"
 )
 
-#' Diatom species
+#' Aquatic diatoms
 #'
+#' @family oft_aq
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_diatom_algae)
-oft_diatom_algae <- c(
+#' print(oft_aq_diatom_algae)
+oft_aq_diatom_algae <- c(
   "Navicula pelliculosa",
-  "Nitzschia palea")
+  "Nitzschia palea",
+  "Marine centric diatom")
 
-#' Cyanobacteria
+#' Aquatic Cyanobacteria
 #'
+#' @family oft_aq
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_cyanobacteria)
-oft_cyanobacteria <- c(
+#' print(oft_aq_cyanobacteria)
+oft_aq_cyanobacteria <- c(
   "Anabaena flosaquae",
   "Anabaena variabilis",
   "Aphanizomenon flos-aquae Ralfs ex Bornet &",
   "Microcystis aeruginosa")
 
-#' Aquatic primary producer species
+#' Aquatic macrophytes
 #'
+#' @family oft_aq
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_aq_macrophytes)
+oft_aq_macrophytes <- c(
+  "Swollen duckweed",
+  "Common duckweed",
+  "Eurasian watermilfoil",
+  "Aquatic plants group",
+  "American waterweed (Pondweed) (live plants)",
+  "Common hornwort (live plants)",
+  "Green cabomba (live plants)",
+  "Wild celery (water celery) (live plants)",
+  "Parrot feather",
+  "Floating sweet-grass")
+
+#' Aquatic primary producers
+#'
+#' @family oft_aq
 #' @docType data
 #' @export
 #' @examples
 #' print(oft_aq_primary_producers)
 oft_aq_primary_producers <- c(
-  "Green alga",
-  "Scenedesmus subspicatus",
-  "Swollen duckweed",
-  "Pseudokirchneriella subcapitata",
-  "Navicula pelliculosa",
-  "Anabaena flosaquae",
-  "Common duckweed",
-  "Eurasian watermilfoil",
-  "Marine centric diatom",
-  "Aquatic plants group",
-  "Chlorella pyrenoidosa",
-  "Scenedesmus quadricauda",
-  "Scenedesmus pannonicus",
-  "Nitzschia palea",
-  "American waterweed (Pondweed) (live plants)",
-  "Common hornwort (live plants)",
-  "Green cabomba (live plants)",
-  "Wild celery (water celery) (live plants)",
-  "Chlorella vulgaris",
-  "Parrot feather",
-  "Anabaena variabilis",
-  "Aphanizomenon flos-aquae Ralfs ex Bornet &",
-  "Microcystis aeruginosa",
-  "Floating sweet-grass")
+  oft_aq_green_algae,
+  oft_aq_diatom_algae,
+  oft_aq_cyanobacteria,
+  oft_aq_macrophytes)
 
-
-#' Aquatic invertebrate species
+#' Aquatic invertebrates
 #'
+#' @family oft_aq
 #' @docType data
 #' @export
 #' @examples
@@ -187,12 +191,13 @@ oft_aq_invertebrates <- c(
   "Tiger worm",
   "Gastropoda - Gastropods")
 
-#' Auquatic fish species
+#' Aquatic fish
 #'
+#' @family oft_aq
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_fish)
+#' print(oft_aq_fish)
 oft_aq_fish <- c(
   "Rainbow trout",
   "Bluegill",

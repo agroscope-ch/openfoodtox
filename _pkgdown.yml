@@ -4,6 +4,10 @@ reference:
       - oft
   - title:  Utility data objects
     contents:
-      - oft_cyanobacteria
-      - oft_green_algae
-      - oft_diatom_algae
+      - oft_aq_cyanobacteria
+      - oft_aq_green_algae
+      - oft_aq_diatom_algae
+      - oft_aq_macrophytes
+      - oft_aq_primary_producers
+      - oft_aq_invertebrates
+      - oft_aq_fish

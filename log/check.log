@@ -1,18 +1,20 @@
-* using log directory ‘/home/jranke/git/openfoodtox/OpenFoodTox.Rcheck’
-* using R version 4.3.2 (2023-10-31)
+* using log directory ‘/home/agsad.admin.ch/f80868656/projects/openfoodtox/OpenFoodTox.Rcheck’
+* using R version 4.3.3 (2024-02-29)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * R was compiled by
-    gcc (Debian 12.2.0-14) 12.2.0
-    GNU Fortran (Debian 12.2.0-14) 12.2.0
-* running under: Debian GNU/Linux 12 (bookworm)
+    gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+    GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+* running under: Ubuntu 22.04.4 LTS
 * using session charset: UTF-8
 * using options ‘--no-tests --as-cran’
 * checking for file ‘OpenFoodTox/DESCRIPTION’ ... OK
 * checking extension type ... Package
 * this is package ‘OpenFoodTox’ version ‘0.1.2’
 * package encoding: UTF-8
-* checking CRAN incoming feasibility ... Note_to_CRAN_maintainers
+* checking CRAN incoming feasibility ... NOTE
 Maintainer: ‘Johannes Ranke <johannes.ranke@agroscope.admin.ch>’
+
+The Date field is over a month old.
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -65,10 +67,15 @@ Maintainer: ‘Johannes Ranke <johannes.ranke@agroscope.admin.ch>’
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking re-building of vignette outputs ... OK
 * checking PDF version of manual ... OK
-* checking HTML version of manual ... OK
+* checking HTML version of manual ... NOTE
+Skipping checking HTML validation: no command 'tidy' found
 * checking for non-standard things in the check directory ... OK
 * checking for detritus in the temp directory ... OK
 * DONE
 
-Status: OK
+Status: 2 NOTEs
+See
+  ‘/home/agsad.admin.ch/f80868656/projects/openfoodtox/OpenFoodTox.Rcheck/00check.log’
+for details.
+
 

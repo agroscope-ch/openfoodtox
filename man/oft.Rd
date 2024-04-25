@@ -49,7 +49,7 @@ oft$reference_points |>
 
 # Collect endpoints on green algae
 green_algae_endpoints <- oft$reference_points |>
-  dplyr::filter(Species \%in\% oft_green_algae) |>
+  dplyr::filter(Species \%in\% oft_aq_green_algae) |>
   select(Substance, Species, DurationDays, Endpoint, qualifier, value, unit, Effect)
 print(green_algae_endpoints)
 

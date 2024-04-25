@@ -21,8 +21,6 @@ $(TGZ): $(pkgfiles)
 
 roxy:
 	Rscript -e "roxygen2::roxygenize(roclets = c('rd', 'collate', 'namespace'))"
-	# https://stackoverflow.com/a/72679175/3805440 describes how to make PhantomJS work in roxygen markdown
-	# by setting an environment variable, but this is not currently used here
 
 build: roxy $(TGZ)
 
