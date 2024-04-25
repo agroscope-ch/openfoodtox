@@ -187,13 +187,13 @@ oft_aq_invertebrates <- c(
   "Tiger worm",
   "Gastropoda - Gastropods")
 
-#' Fish species
+#' Auquatic fish species
 #'
 #' @docType data
 #' @export
 #' @examples
 #' print(oft_fish)
-oft_fish <- c(
+oft_aq_fish <- c(
   "Rainbow trout",
   "Bluegill",
   "Fathead minnow",
