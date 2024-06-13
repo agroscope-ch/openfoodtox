@@ -100,8 +100,8 @@ oft_aq_green_algae <- c(
   "Pseudokirchneriella subcapitata",
   "Scenedesmus pannonicus",
   "Scenedesmus quadircauda",
-  "Scenedesmus subspicatus"
-)
+  "Scenedesmus subspicatus",
+  "Scenedesmus quadricauda")
 
 #' Aquatic diatoms
 #'
@@ -191,7 +191,7 @@ oft_aq_invertebrates <- c(
   "Tiger worm",
   "Gastropoda - Gastropods")
 
-#' Aquatic fish
+#' Fish and other aquatic vertebrates
 #'
 #' @family oft_aq
 #' @docType data
@@ -219,5 +219,111 @@ oft_aq_fish <- c(
   "Mosquitofish",
   "Three-spined stickleback",
   "Mozambique tilapia",
-  "Spot croaker")
+  "Spot croaker",
+  "African clawed frog",#@ Hannes correct? - grouped as in pieris!
+  "Japanese rice fish",
+  "Crucian carp",
+  "Yellow bullhead catfish",
+  ) 
+
+#' Earthworms and other soil animals
+#'
+#' @family oft_in_crop
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_ic_birds)
+oft_ic_Earthworms <- c(
+  "Earthworm",
+  "Grey worm",
+  "Folsomia candida",
+  "Hypoaspis aculeifer",
+  "Red tiger worm")
+
+#' Birds
+#'
+#' @family oft_in_crop
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_ic_birds)
+oft_ic_birds <- c(
+  "Bobwhite quail",
+  "Common quail",
+  "Mallard duck",
+  "Bird",
+  "Ringneck dove",
+  "Common pheasant",
+  "Japanese quail",
+  "Duck",
+  "Zebra finch",
+  "Quail",
+  "Turkey",
+  "Red-winged blackbird",
+  "Canary",
+  "Black duck",
+  "Helmeted Guineafowl",
+  "Partridge",
+  "Goose"
+  )
+
+#' Bees
+#'
+#' @family oft_off_crop
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_oc_bees)
+oft_oc_bees <- c(
+  "Honey bee")
+
+#' Beneficial Arthropods
+#'
+#' @family oft_off_crop
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_oc_bees)
+oft_oc_bees <- c(
+  "Aphidius rhopalosiphi",
+  "Typhlodromus pyri",
+  "Poecilus cupreus",
+  "Green lacewing",
+  "Trichogramma cacoeciae",
+  "Encarsia formosa",
+  "Seven-spot ladybird",
+  "Minute pirate bug",
+  "Aphidius colemani",
+  "Aphidius matricariae",
+  "Marmalade hoverfly"
+  )
+
+#' Mammals
+#'
+#' @family oft_off_crop
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_oc_mammals)
+oft_oc_mammals <- c(
+  "Rat",
+  "Human",
+  "Pig",
+  "Mouse",
+  "Dog",
+  "Rabbit",
+  "Sheep",
+  "American mink",
+  "Mammalian cell line", #@Hannes correct or in different group? 
+  "Cattle",
+  "Chicken",
+  "Cynomolgus monkey",
+  "Horse",
+  "Cat",
+  "Goat",
+  "Rhesus monkey",
+  "Rodents",
+  "Pardosa sp."
+  )
+
 
