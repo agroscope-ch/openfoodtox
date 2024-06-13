@@ -171,7 +171,7 @@ oft_aq_invertebrates <- c(
   "Daphnia magna",
   "Harlequin fly",
   "Eastern oyster",
-  "Mysid shrimp",
+  "Mysid shrimp", 
   "Daphnia pulex",
   "Ctenodrilus serratus",
   "Great pond snail",
