@@ -100,8 +100,8 @@ oft_aq_green_algae <- c(
   "Pseudokirchneriella subcapitata",
   "Scenedesmus pannonicus",
   "Scenedesmus quadircauda",
-  "Scenedesmus subspicatus"
-)
+  "Scenedesmus subspicatus",
+  "Scenedesmus quadricauda")
 
 #' Aquatic diatoms
 #'
@@ -171,7 +171,7 @@ oft_aq_invertebrates <- c(
   "Daphnia magna",
   "Harlequin fly",
   "Eastern oyster",
-  "Mysid shrimp",
+  "Mysid shrimp", 
   "Daphnia pulex",
   "Ctenodrilus serratus",
   "Great pond snail",
@@ -191,7 +191,7 @@ oft_aq_invertebrates <- c(
   "Tiger worm",
   "Gastropoda - Gastropods")
 
-#' Aquatic fish
+#' Fish and other aquatic vertebrates
 #'
 #' @family oft_aq
 #' @docType data
@@ -219,5 +219,150 @@ oft_aq_fish <- c(
   "Mosquitofish",
   "Three-spined stickleback",
   "Mozambique tilapia",
-  "Spot croaker")
+  "Spot croaker",
+  "African clawed frog",#@ Hannes correct? - grouped as in pieris!
+  "Japanese rice fish",
+  "Crucian carp",
+  "Yellow bullhead catfish"
+  ) 
 
+#' Earthworms and other soil animals
+#'
+#' @family oft_in_crop
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_earthworms)
+oft_earthworms <- c(
+  "Earthworm",
+  "Grey worm",
+  "Folsomia candida",
+  "Lob worm",
+  "Hypoaspis aculeifer",
+  "Red tiger worm")
+
+#' Birds
+#'
+#' @family 
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_birds)
+oft_birds <- c(
+  "Bobwhite quail",
+  "Common quail",
+  "Mallard duck",
+  "Bird",
+  "Ringneck dove",
+  "Common pheasant",
+  "Japanese quail",
+  "Duck",
+  "Zebra finch",
+  "Quail",
+  "Turkey",
+  "Red-winged blackbird",
+  "Canary",
+  "Black duck",
+  "Helmeted Guineafowl",
+  "Partridge",
+  "Goose"
+  )
+
+#' Bees
+#'
+#' @family 
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_bees)
+oft_bees <- c(
+  "Honey bee")
+
+#' Beneficial Arthropods
+#'
+#' @family 
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_arthropods)
+oft_arthropods <- c(
+  "Aleochara bilineata",
+  "Aphidius rhopalosiphi",
+  "Aphidius colemani",
+  "Aphidius matricariae",
+  "Typhlodromus pyri",
+  "Poecilus cupreus",
+  "Green lacewing",
+  "Trichogramma cacoeciae",
+  "Encarsia formosa",
+  "Seven-spot ladybird",
+  "Minute pirate bug",
+  "Marmalade hoverfly"
+  )
+
+#' Mammals
+#'
+#' @family 
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_mammals)
+oft_mammals <- c(
+  "Rat",
+  "Human",
+  "Pig",
+  "Mouse",
+  "Dog",
+  "Rabbit",
+  "Sheep",
+  "American mink",
+  "Mammalian cell line", #@Hannes correct or in different group? 
+  "Cattle",
+  "Chicken",
+  "Cynomolgus monkey",
+  "Horse",
+  "Cat",
+  "Goat",
+  "Rhesus monkey",
+  "Rodents",
+  "Pardosa sp."
+  )
+
+#' Plants
+#'
+#' @family 
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_plants)
+oft_plants <- c(
+  "Onion",
+    "Maize",
+    "Carrot",
+    "Lettuce",
+    "Mung bean",
+    "Soybean",
+    "Monocots",
+    "White mustard",
+    "Sunflower",
+    "Wild cabbage",
+    "Cucumber",
+    "Tomato",
+    "Perennial ryegrass",
+    "Sugar beet",
+    "Radish",
+    "Redroot amaranth",
+    "Common oat",
+    "Common chickweed",
+    "Garden pea",
+    "Wheat",
+    "Rye",
+    "Sorghum",
+    "Lob worm",
+    "Field bean (Fava bean)",
+    "Garden cress",
+    "Rapeseed (oilseed rape)",
+    "Wild oat"
+  )
+
+#these species entries are not present in any group: "Unspecified" & "not reported"
