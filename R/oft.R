@@ -223,7 +223,7 @@ oft_aq_fish <- c(
   "African clawed frog",#@ Hannes correct? - grouped as in pieris!
   "Japanese rice fish",
   "Crucian carp",
-  "Yellow bullhead catfish",
+  "Yellow bullhead catfish"
   ) 
 
 #' Earthworms and other soil animals
@@ -232,22 +232,23 @@ oft_aq_fish <- c(
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_ic_birds)
-oft_ic_Earthworms <- c(
+#' print(oft_earthworms)
+oft_earthworms <- c(
   "Earthworm",
   "Grey worm",
   "Folsomia candida",
+  "Lob worm",
   "Hypoaspis aculeifer",
   "Red tiger worm")
 
 #' Birds
 #'
-#' @family oft_in_crop
+#' @family 
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_ic_birds)
-oft_ic_birds <- c(
+#' print(oft_birds)
+oft_birds <- c(
   "Bobwhite quail",
   "Common quail",
   "Mallard duck",
@@ -269,23 +270,26 @@ oft_ic_birds <- c(
 
 #' Bees
 #'
-#' @family oft_off_crop
+#' @family 
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_oc_bees)
-oft_oc_bees <- c(
+#' print(oft_bees)
+oft_bees <- c(
   "Honey bee")
 
 #' Beneficial Arthropods
 #'
-#' @family oft_off_crop
+#' @family 
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_oc_bees)
-oft_oc_bees <- c(
+#' print(oft_arthropods)
+oft_arthropods <- c(
+  "Aleochara bilineata",
   "Aphidius rhopalosiphi",
+  "Aphidius colemani",
+  "Aphidius matricariae",
   "Typhlodromus pyri",
   "Poecilus cupreus",
   "Green lacewing",
@@ -293,19 +297,17 @@ oft_oc_bees <- c(
   "Encarsia formosa",
   "Seven-spot ladybird",
   "Minute pirate bug",
-  "Aphidius colemani",
-  "Aphidius matricariae",
   "Marmalade hoverfly"
   )
 
 #' Mammals
 #'
-#' @family oft_off_crop
+#' @family 
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_oc_mammals)
-oft_oc_mammals <- c(
+#' print(oft_mammals)
+oft_mammals <- c(
   "Rat",
   "Human",
   "Pig",
@@ -326,4 +328,41 @@ oft_oc_mammals <- c(
   "Pardosa sp."
   )
 
+#' Plants
+#'
+#' @family 
+#' @docType data
+#' @export
+#' @examples
+#' print(oft_plants)
+oft_plants <- c(
+  "Onion",
+    "Maize",
+    "Carrot",
+    "Lettuce",
+    "Mung bean",
+    "Soybean",
+    "Monocots",
+    "White mustard",
+    "Sunflower",
+    "Wild cabbage",
+    "Cucumber",
+    "Tomato",
+    "Perennial ryegrass",
+    "Sugar beet",
+    "Radish",
+    "Redroot amaranth",
+    "Common oat",
+    "Common chickweed",
+    "Garden pea",
+    "Wheat",
+    "Rye",
+    "Sorghum",
+    "Lob worm",
+    "Field bean (Fava bean)",
+    "Garden cress",
+    "Rapeseed (oilseed rape)",
+    "Wild oat"
+  )
 
+#these species entries are not present in any group: "Unspecified" & "not reported"
