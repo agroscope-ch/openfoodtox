@@ -8,9 +8,17 @@
 list A \link{dm} object
 }
 \source{
-Carnesecchi E, Mostrag A, Ciacci A, Roncaglioni A, Tarkhov A, Gibin D, Sartori L, Benfenati E, Yang C, Dorne JLCM (2023). OpenFoodTox: EFSA's chemical hazards database (Version 5). Zenodo. \doi{10.5281/zenodo.8120114}
+Carnesecchi E, Mostrag A, Ciacci A, Roncaglioni A, Tarkhov A, Gibin D,
+Sartori L, Benfenati E, Yang C, Dorne JLCM (2023). OpenFoodTox: EFSA's
+chemical hazards database (Version 5). Zenodo. \doi{10.5281/zenodo.8120114}
 
-Dorne JLCM, Richardson J, Livaniou A, Carnesecchi E, Ceriani L, Baldin R, Kovarich S, Pavan M, Saouter E, Biganzoli F, Pasinato L, Zare Jeddi M, Robinson TP, Kass GEN, Liem AKD, Toropov AA, Toropova AP, Yang C, Tarkhov A, Georgiadis N, Di Nicola MR, Mostrag A, Verhagen H, Roncaglioni A, Benfenati E, Bassan A. EFSA's OpenFoodTox: An open source toxicological database on chemicals in food and feed and its future developments. Environ Int. 2021 Jan;146:106293. \doi{10.1016/j.envint.2020.106293}
+Dorne JLCM, Richardson J, Livaniou A, Carnesecchi E, Ceriani L, Baldin R,
+Kovarich S, Pavan M, Saouter E, Biganzoli F, Pasinato L, Zare Jeddi M,
+Robinson TP, Kass GEN, Liem AKD, Toropov AA, Toropova AP, Yang C, Tarkhov A,
+Georgiadis N, Di Nicola MR, Mostrag A, Verhagen H, Roncaglioni A, Benfenati
+E, Bassan A. EFSA's OpenFoodTox: An open source toxicological database on
+chemicals in food and feed and its future developments. Environ Int. 2021
+Jan;146:106293. \doi{10.1016/j.envint.2020.106293}
 }
 \usage{
 oft
@@ -92,5 +100,8 @@ oft$reference_points |>
   dplyr::filter(grepl("^Floras", Substance)) |>
   arrange(Species) |>
   select(Substance, Species, DurationDays, Endpoint, qualifier, value, unit, Effect)
+}
+\seealso{
+species_group
 }
 \keyword{datasets}
