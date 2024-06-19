@@ -2,7 +2,7 @@ Package: OpenFoodTox
 Type: Package
 Title: EFSA OpenFoodTox Data Made Accessible as an R Package
 Version: 0.1.4
-Date: 2024-06-18
+Date: 2024-06-19
 Authors@R: c(
   person("Johannes", "Ranke", role = c("aut", "cre"),
     email = "johannes.ranke@agroscope.admin.ch",

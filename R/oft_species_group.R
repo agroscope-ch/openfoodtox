@@ -8,7 +8,7 @@
 #' @param species The species name, i.e. the Species column in the referenec
 #' point table
 #' @return A species group name
-#' @importFrom dplyr filter select mutate
+#' @importFrom dplyr filter select mutate case_when
 #' @export
 #' @examples
 #' library(dplyr)
@@ -189,7 +189,7 @@ oft_earthworms <- c(
 #' @docType data
 #' @export
 #' @examples
-#' print(oft_soil_macroorganisms
+#' print(oft_soil_macroorganisms)
 oft_soil_macroorganisms <- c(
   oft_earthworms,
   "Folsomia candida",
