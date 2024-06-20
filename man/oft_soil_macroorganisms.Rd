@@ -5,7 +5,7 @@
 \alias{oft_soil_macroorganisms}
 \title{Soil macroorganisms}
 \format{
-An object of class \code{character} of length 6.
+An object of class \code{character} of length 7.
 }
 \usage{
 oft_soil_macroorganisms

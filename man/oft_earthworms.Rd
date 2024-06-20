@@ -5,7 +5,7 @@
 \alias{oft_earthworms}
 \title{Earthworms}
 \format{
-An object of class \code{character} of length 4.
+An object of class \code{character} of length 5.
 }
 \usage{
 oft_earthworms

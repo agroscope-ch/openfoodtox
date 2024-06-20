@@ -5,7 +5,7 @@
 \alias{oft_aq_invertebrates}
 \title{Aquatic invertebrates}
 \format{
-An object of class \code{character} of length 22.
+An object of class \code{character} of length 21.
 }
 \usage{
 oft_aq_invertebrates
