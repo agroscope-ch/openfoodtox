@@ -133,7 +133,6 @@ oft_aq_invertebrates <- c(
   "Gammarus pulex",
   "Northern quahog",
   "Chironomus yoshimatsui",
-  "Tiger worm",
   "Gastropoda - Gastropods")
 
 #' Fish
@@ -180,6 +179,7 @@ oft_aq_fish <- c(
 oft_earthworms <- c(
   "Earthworm",
   "Grey worm",
+  "Tiger worm",
   "Lob worm",
   "Red tiger worm")
 
