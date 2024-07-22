@@ -12,7 +12,8 @@ pkgfiles = \
 	NAMESPACE \
 	NEWS.md \
 	README.md \
-	R/*
+	R/* \
+	vignettes/*.rmd
 
 all: build
 

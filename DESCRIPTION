@@ -1,8 +1,8 @@
 Package: OpenFoodTox
 Type: Package
 Title: EFSA OpenFoodTox Data Made Accessible as an R Package
-Version: 0.1.4
-Date: 2024-06-19
+Version: 0.1.3
+Date: 2024-07-22
 Authors@R: c(
   person("Johannes", "Ranke", role = c("aut", "cre"),
     email = "johannes.ranke@agroscope.admin.ch",
@@ -23,6 +23,7 @@ Depends: R (>= 3.5.0)
 Imports: dm, dplyr
 Suggests: knitr, rmarkdown, here, DiagrammeR, DiagrammeRsvg, testthat (>= 3.0.0), readxl
 BugReports: https://github.com/jranke/openfoodtox/issues
+URL: https://agroscope-ch.github.io/openfoodtox
 License: GPL
 LazyData: yes
 LazyDataCompression: xz
