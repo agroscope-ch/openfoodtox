@@ -32,7 +32,7 @@ A graphical representation of these tables and their relations and some
 usage examples are shown in the
 [documentation of the `oft` object](https://agroscope-ch.github.io/openfoodtox/reference/oft.html).
 In addition, there is a 
-[package vignette on the `oft` object](https://agroscope-ch.github.io/openfoodtox/articles/oft.html),
+[package vignette on the `oft` object](https://agroscope-ch.github.io/openfoodtox/articles/OpenFoodTox.html),
 describing the contents of the individual tables.
 
 For further information on relational data models as implemented in the

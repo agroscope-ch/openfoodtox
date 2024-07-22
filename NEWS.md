@@ -1,4 +1,4 @@
-# OpenFoodTox 0.1.3
+# OpenFoodTox 0.1.4
 
 - Reorganize and add some species lists for aquatic reference points
 - Rename vignette describing the data object to 'OpenFoodTox.rmd' so it is

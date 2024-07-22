@@ -34,7 +34,7 @@ outputs. Other data tables published as part of OpenFoodTox are not included
 in this R package.
 }
 \details{
-See \code{vignette("oft")} for a description of the contents of the individual
+See \code{vignette("OpenFoodTox")} for a description of the contents of the individual
 tables.
 
 The R code used to create this data object is installed with this package
