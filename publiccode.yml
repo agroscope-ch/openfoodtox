@@ -1,0 +1,56 @@
+publiccodeYmlVersion: 0.5.0
+name: OpenFoodTox - R package making OpenFoodTox data accessible in R
+url: https://github.com/agroscope-ch/openfoodtox
+softwareVersion: 0.1.3
+releaseDate: 2024-07-22
+platforms:
+  - windows
+  - mac
+  - linux
+  - ios
+categories:
+  - data-analytics
+usedBy:
+  - Agroscope
+developmentStatus: stable
+softwareType: addon
+organisation:
+  uri: https://ld.admin.ch/ou/10003634
+  name: Agroscope
+description:
+  en:
+    localisedName: OpenFoodTox - R package making OpenFoodTox data accessible in R
+    shortDescription: This R package provides convenient access to data
+      extracted from some of the spreadsheet files made available as
+      OpenFoodTox, the chemical hazards database of the European Food Safety
+      Authority (EFSA). 
+    longDescription: This R package provides convenient access to data
+      extracted from some of the spreadsheet files made available as
+      OpenFoodTox, the chemical hazards database of the European Food Safety
+      Authority (EFSA). The original files have been published under the
+      Creative Commons Attribution 4.0 International licence and can be
+      accessed via the EFSA website or directly at Zenodo.  The core component
+      of the package is the data object oft, which contains the data from four
+      OpenFoodTox spreadsheets which are currently relevant for our group at
+      Agroscope. These are the spreadsheets on substance characterisation, EFSA
+      outputs, reference points and reference values.  When using this R
+      package, the data are available in the form of a dm object. Basically, a
+      dm object is a list of tables with defined relations.
+    documentation: https://agroscope-ch.github.io/openfoodtox/
+    apiDocumentation: https://agroscope-ch.github.io/openfoodtox/reference/
+    features:
+      - Provide tables with substance characterisations, EFSA outputs,
+        reference values and reference points that are linked together
+        using foreign key relations
+legal:
+  license: LGPL-3.0-or-later
+maintenance:
+  type: internal
+  contacts:
+    - name: Johannes Ranke
+      email: johannes.ranke@agroscope.admin.ch
+      affiliation: Agroscope
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - en
