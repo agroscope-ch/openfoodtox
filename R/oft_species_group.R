@@ -133,7 +133,8 @@ oft_aq_invertebrates <- c(
   "Gammarus pulex",
   "Northern quahog",
   "Chironomus yoshimatsui",
-  "Gastropoda - Gastropods")
+  "Gastropoda - Gastropods",
+  "Louisiana crayfish")
 
 #' Fish
 #'
@@ -154,7 +155,6 @@ oft_aq_fish <- c(
   "Brook trout",
   "Brown trout",
   "Ide",
-  "Louisiana crayfish",
   "Atlantic salmon",
   "Channel catfish",
   "Guppy",

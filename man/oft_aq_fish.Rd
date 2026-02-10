@@ -5,7 +5,7 @@
 \alias{oft_aq_fish}
 \title{Fish}
 \format{
-An object of class \code{character} of length 24.
+An object of class \code{character} of length 23.
 }
 \usage{
 oft_aq_fish

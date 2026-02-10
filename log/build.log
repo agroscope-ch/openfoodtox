@@ -5,5 +5,10 @@
 * creating vignettes ... OK
 * checking for LF line-endings in source and make files and shell scripts
 * checking for empty or unneeded directories
-* building ‘OpenFoodTox_0.1.4.tar.gz’
+  NB: this package now depends on R (>= 4.1.0)
+  WARNING: Added dependency on R >= 4.1.0 because package code uses the
+  pipe |> or function shorthand \(...) syntax added in R 4.1.0.
+  File(s) using such syntax:
+    ‘oft.Rd’ ‘oft_group_species.Rd’
+* building ‘OpenFoodTox_0.1.3.tar.gz’
 

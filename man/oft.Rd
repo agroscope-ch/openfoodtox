@@ -5,7 +5,7 @@
 \alias{oft}
 \title{Connected tables of data published in OpenFoodTox}
 \format{
-list A \link{dm} object
+list A \link[dm:dm]{dm::dm} object
 }
 \source{
 Carnesecchi E, Mostrag A, Ciacci A, Roncaglioni A, Tarkhov A, Gibin D,
