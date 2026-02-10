@@ -10,7 +10,7 @@ oft_aq_fish
 
 ## Format
 
-An object of class `character` of length 24.
+An object of class `character` of length 23.
 
 ## See also
 
@@ -39,11 +39,11 @@ print(oft_aq_fish)
 #>  [5] "Common carp"              "Zebra fish"              
 #>  [7] "Red seabream"             "American flag fish"      
 #>  [9] "Brook trout"              "Brown trout"             
-#> [11] "Ide"                      "Louisiana crayfish"      
-#> [13] "Atlantic salmon"          "Channel catfish"         
-#> [15] "Guppy"                    "European perch"          
-#> [17] "Inland silverside"        "Mosquitofish"            
-#> [19] "Three-spined stickleback" "Mozambique tilapia"      
-#> [21] "Spot croaker"             "Japanese rice fish"      
-#> [23] "Crucian carp"             "Yellow bullhead catfish" 
+#> [11] "Ide"                      "Atlantic salmon"         
+#> [13] "Channel catfish"          "Guppy"                   
+#> [15] "European perch"           "Inland silverside"       
+#> [17] "Mosquitofish"             "Three-spined stickleback"
+#> [19] "Mozambique tilapia"       "Spot croaker"            
+#> [21] "Japanese rice fish"       "Crucian carp"            
+#> [23] "Yellow bullhead catfish" 
 ```

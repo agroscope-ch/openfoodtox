@@ -10,7 +10,7 @@ oft_aq_invertebrates
 
 ## Format
 
-An object of class `character` of length 21.
+An object of class `character` of length 22.
 
 ## See also
 
@@ -44,5 +44,5 @@ print(oft_aq_invertebrates)
 #> [15] "Chironomus tentans"       "Daggerblade grass Shrimp"
 #> [17] "Gammarus pseudolimnaeus"  "Gammarus pulex"          
 #> [19] "Northern quahog"          "Chironomus yoshimatsui"  
-#> [21] "Gastropoda - Gastropods" 
+#> [21] "Gastropoda - Gastropods"  "Louisiana crayfish"      
 ```

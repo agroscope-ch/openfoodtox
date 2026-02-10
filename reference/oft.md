@@ -17,7 +17,7 @@ oft
 
 ## Format
 
-list A [dm](https://dm.cynkra.com/reference/dm.html) object
+list A [dm::dm](https://dm.cynkra.com/reference/dm.html) object
 
 ## Source
 
