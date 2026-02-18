@@ -43,7 +43,7 @@ description:
         reference values and reference points that are linked together
         using foreign key relations
 legal:
-  license: LGPL-3.0-or-later
+  license: GPL-3.0-or-later
 maintenance:
   type: internal
   contacts:
