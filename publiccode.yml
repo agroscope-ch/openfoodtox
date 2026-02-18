@@ -20,10 +20,8 @@ organisation:
 description:
   en:
     localisedName: OpenFoodTox - R package making OpenFoodTox data accessible in R
-    shortDescription: This R package provides convenient access to data
-      extracted from some of the spreadsheet files made available as
-      OpenFoodTox, the chemical hazards database of the European Food Safety
-      Authority (EFSA). 
+    shortDescription: Convenient access to some data from OpenFoodTox, the
+      chemical hazards database of the European Food Safety Authority (EFSA). 
     longDescription: This R package provides convenient access to data
       extracted from some of the spreadsheet files made available as
       OpenFoodTox, the chemical hazards database of the European Food Safety
